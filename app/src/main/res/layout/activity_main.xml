@@ -22,21 +22,44 @@
             android:text="Hoàng Văn Quốc Nhật" />
 
         <TextView
-            android:id="@+id/textView3"
+            android:id="@+id/txtMsv"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="TextView" />
+            android:text="2415053122332" />
 
         <TextView
-            android:id="@+id/textView4"
+            android:id="@+id/txtSinhVien"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="TextView" />
+            android:text="TRY20" />
 
-        <TextView
-            android:id="@+id/textView5"
+        <EditText
+            android:id="@+id/edtTen"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="TextView" />
+            android:ems="10"
+            android:inputType="text"
+            android:hint="Tên" />
+
+        <EditText
+            android:id="@+id/edtSoLuong"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:hint="Số lượng" />
+
+        <Button
+            android:id="@+id/btnKiemTra"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="KIỂM TRA" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Button" />
+
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

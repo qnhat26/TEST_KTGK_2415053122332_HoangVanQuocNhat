@@ -1,0 +1,146 @@
+﻿================================================================================
+                   FDT AGENT - LOCAL GIT COMMIT LOG HISTORY                     
+================================================================================
+ExportedAt: 2026-11-16 14:30:41 UTC
+
+--- CONTRIBUTORS SUMMARY ---
+3	Hoang Van Quoc Nhat 2415053122332 <hoangnhat250606@gmail.com>
+     2	Hoàng Văn Quốc Nhật (2415053122332) <2415053122332@fdt.ute.udn.vn>
+
+--- MACHINE READABLE COMMITS ---
+COMMIT_ROW|371afb627e8f06f49e4b875b90e653621a21d554|371afb6|Hoang Van Quoc Nhat 2415053122332|hoangnhat250606@gmail.com|Hoang Van Quoc Nhat 2415053122332|hoangnhat250606@gmail.com|2026-11-16T21:30:41+07:00|FDT Agent Auto-Commit [21:30:41]: Tự động sao lưu commit khi hết thời gian làm bài
+COMMIT_ROW|cff3c7185f3c3694297f57e4d354cfc27dd341ec|cff3c71|Hoang Van Quoc Nhat 2415053122332|hoangnhat250606@gmail.com|Hoang Van Quoc Nhat 2415053122332|hoangnhat250606@gmail.com|2026-11-16T21:26:38+07:00|FDT Agent Autosave [21:26:38]: Tự động sao lưu tiến độ làm bài định kỳ
+COMMIT_ROW|25b7611ff592b63cf6c927f8345d813e88d7dc93|25b7611|Hoang Van Quoc Nhat 2415053122332|hoangnhat250606@gmail.com|Hoang Van Quoc Nhat 2415053122332|hoangnhat250606@gmail.com|2026-11-16T21:23:55+07:00|Khoi tao project
+COMMIT_ROW|64ead3433a27b44fee31348f32a877f88c1a5c11|64ead34|Hoàng Văn Quốc Nhật (2415053122332)|2415053122332@fdt.ute.udn.vn|Hoàng Văn Quốc Nhật (2415053122332)|2415053122332@fdt.ute.udn.vn|2026-11-16T21:21:37+07:00|FDT Agent Autosave [21:21:37]: Tự động sao lưu tiến độ làm bài định kỳ
+COMMIT_ROW|0070ac04b69d841296e870c394e0d39efd27aaba|0070ac0|Hoàng Văn Quốc Nhật (2415053122332)|2415053122332@fdt.ute.udn.vn|Hoàng Văn Quốc Nhật (2415053122332)|2415053122332@fdt.ute.udn.vn|2026-11-16T21:16:46+07:00|FDT Agent: Initialized local project repository
+
+--- DETAILED COMMIT HISTORY WITH FILE STATS ---
+commit 371afb627e8f06f49e4b875b90e653621a21d554
+Author:     Hoang Van Quoc Nhat 2415053122332 <hoangnhat250606@gmail.com>
+AuthorDate: Mon Nov 16 21:30:41 2026 +0700
+Commit:     Hoang Van Quoc Nhat 2415053122332 <hoangnhat250606@gmail.com>
+CommitDate: Mon Nov 16 21:30:41 2026 +0700
+
+    FDT Agent Auto-Commit [21:30:41]: Tự động sao lưu commit khi hết thời gian làm bài
+
+ app/src/main/res/layout/activity_main.xml | 37 +++++++++++++++++++++++++------
+ 1 file changed, 30 insertions(+), 7 deletions(-)
+
+commit cff3c7185f3c3694297f57e4d354cfc27dd341ec
+Author:     Hoang Van Quoc Nhat 2415053122332 <hoangnhat250606@gmail.com>
+AuthorDate: Mon Nov 16 21:26:38 2026 +0700
+Commit:     Hoang Van Quoc Nhat 2415053122332 <hoangnhat250606@gmail.com>
+CommitDate: Mon Nov 16 21:26:38 2026 +0700
+
+    FDT Agent Autosave [21:26:38]: Tự động sao lưu tiến độ làm bài định kỳ
+
+ app/src/main/res/layout/activity_main.xml | 8 ++++----
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+
+commit 25b7611ff592b63cf6c927f8345d813e88d7dc93
+Author:     Hoang Van Quoc Nhat 2415053122332 <hoangnhat250606@gmail.com>
+AuthorDate: Mon Nov 16 21:23:55 2026 +0700
+Commit:     Hoang Van Quoc Nhat 2415053122332 <hoangnhat250606@gmail.com>
+CommitDate: Mon Nov 16 21:23:55 2026 +0700
+
+    Khoi tao project
+
+ app/.gitignore                                     |   1 +
+ app/build.gradle.kts                               |  44 ++++
+ .../ExampleInstrumentedTest.kt                     |  24 ++
+ app/src/main/AndroidManifest.xml                   |  26 +++
+ .../a126lttd01_act74_2415053122332/MainActivity.kt |  20 ++
+ app/src/main/keepRules/rules.keep                  |  12 +
+ .../main/res/drawable/ic_launcher_background.xml   | 170 ++++++++++++++
+ .../main/res/drawable/ic_launcher_foreground.xml   |  30 +++
+ app/src/main/res/layout/activity_main.xml          |  42 ++++
+ app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml |   6 +
+ .../res/mipmap-anydpi-v26/ic_launcher_round.xml    |   6 +
+ app/src/main/res/mipmap-hdpi/ic_launcher.webp      | Bin 0 -> 1404 bytes
+ .../main/res/mipmap-hdpi/ic_launcher_round.webp    | Bin 0 -> 2898 bytes
+ app/src/main/res/mipmap-mdpi/ic_launcher.webp      | Bin 0 -> 982 bytes
+ .../main/res/mipmap-mdpi/ic_launcher_round.webp    | Bin 0 -> 1772 bytes
+ app/src/main/res/mipmap-xhdpi/ic_launcher.webp     | Bin 0 -> 1900 bytes
+ .../main/res/mipmap-xhdpi/ic_launcher_round.webp   | Bin 0 -> 3918 bytes
+ app/src/main/res/mipmap-xxhdpi/ic_launcher.webp    | Bin 0 -> 2884 bytes
+ .../main/res/mipmap-xxhdpi/ic_launcher_round.webp  | Bin 0 -> 5914 bytes
+ app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp   | Bin 0 -> 3844 bytes
+ .../main/res/mipmap-xxxhdpi/ic_launcher_round.webp | Bin 0 -> 7778 bytes
+ app/src/main/res/values-night/themes.xml           |   7 +
+ app/src/main/res/values/colors.xml                 |   5 +
+ app/src/main/res/values/strings.xml                |   3 +
+ app/src/main/res/values/themes.xml                 |   9 +
+ app/src/main/res/xml/backup_rules.xml              |  13 ++
+ app/src/main/res/xml/data_extraction_rules.xml     |  19 ++
+ .../ExampleUnitTest.kt                             |  17 ++
+ build.gradle.kts                                   |   4 +
+ gradle.properties                                  |  19 ++
+ gradle/gradle-daemon-jvm.properties                |  12 +
+ gradle/libs.versions.toml                          |  24 ++
+ gradle/wrapper/gradle-wrapper.jar                  | Bin 0 -> 45457 bytes
+ gradle/wrapper/gradle-wrapper.properties           |   9 +
+ gradlew                                            | 251 +++++++++++++++++++++
+ gradlew.bat                                        |  94 ++++++++
+ local.properties                                   |  10 +
+ settings.gradle.kts                                |  26 +++
+ 38 files changed, 903 insertions(+)
+
+commit 64ead3433a27b44fee31348f32a877f88c1a5c11
+Author:     Hoàng Văn Quốc Nhật (2415053122332) <2415053122332@fdt.ute.udn.vn>
+AuthorDate: Mon Nov 16 21:21:37 2026 +0700
+Commit:     Hoàng Văn Quốc Nhật (2415053122332) <2415053122332@fdt.ute.udn.vn>
+CommitDate: Mon Nov 16 21:21:37 2026 +0700
+
+    FDT Agent Autosave [21:21:37]: Tự động sao lưu tiến độ làm bài định kỳ
+
+ app/.gitignore                                     |   1 +
+ app/build.gradle.kts                               |  44 ++++
+ .../ExampleInstrumentedTest.kt                     |  24 ++
+ app/src/main/AndroidManifest.xml                   |  26 +++
+ .../a126lttd01_act74_2415053122332/MainActivity.kt |  20 ++
+ app/src/main/keepRules/rules.keep                  |  12 +
+ .../main/res/drawable/ic_launcher_background.xml   | 170 ++++++++++++++
+ .../main/res/drawable/ic_launcher_foreground.xml   |  30 +++
+ app/src/main/res/layout/activity_main.xml          |  42 ++++
+ app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml |   6 +
+ .../res/mipmap-anydpi-v26/ic_launcher_round.xml    |   6 +
+ app/src/main/res/mipmap-hdpi/ic_launcher.webp      | Bin 0 -> 1404 bytes
+ .../main/res/mipmap-hdpi/ic_launcher_round.webp    | Bin 0 -> 2898 bytes
+ app/src/main/res/mipmap-mdpi/ic_launcher.webp      | Bin 0 -> 982 bytes
+ .../main/res/mipmap-mdpi/ic_launcher_round.webp    | Bin 0 -> 1772 bytes
+ app/src/main/res/mipmap-xhdpi/ic_launcher.webp     | Bin 0 -> 1900 bytes
+ .../main/res/mipmap-xhdpi/ic_launcher_round.webp   | Bin 0 -> 3918 bytes
+ app/src/main/res/mipmap-xxhdpi/ic_launcher.webp    | Bin 0 -> 2884 bytes
+ .../main/res/mipmap-xxhdpi/ic_launcher_round.webp  | Bin 0 -> 5914 bytes
+ app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp   | Bin 0 -> 3844 bytes
+ .../main/res/mipmap-xxxhdpi/ic_launcher_round.webp | Bin 0 -> 7778 bytes
+ app/src/main/res/values-night/themes.xml           |   7 +
+ app/src/main/res/values/colors.xml                 |   5 +
+ app/src/main/res/values/strings.xml                |   3 +
+ app/src/main/res/values/themes.xml                 |   9 +
+ app/src/main/res/xml/backup_rules.xml              |  13 ++
+ app/src/main/res/xml/data_extraction_rules.xml     |  19 ++
+ .../ExampleUnitTest.kt                             |  17 ++
+ build.gradle.kts                                   |   4 +
+ gradle.properties                                  |  19 ++
+ gradle/gradle-daemon-jvm.properties                |  12 +
+ gradle/libs.versions.toml                          |  24 ++
+ gradle/wrapper/gradle-wrapper.jar                  | Bin 0 -> 45457 bytes
+ gradle/wrapper/gradle-wrapper.properties           |   9 +
+ gradlew                                            | 251 +++++++++++++++++++++
+ gradlew.bat                                        |  94 ++++++++
+ local.properties                                   |  10 +
+ settings.gradle.kts                                |  26 +++
+ 38 files changed, 903 insertions(+)
+
+commit 0070ac04b69d841296e870c394e0d39efd27aaba
+Author:     Hoàng Văn Quốc Nhật (2415053122332) <2415053122332@fdt.ute.udn.vn>
+AuthorDate: Mon Nov 16 21:16:46 2026 +0700
+Commit:     Hoàng Văn Quốc Nhật (2415053122332) <2415053122332@fdt.ute.udn.vn>
+CommitDate: Mon Nov 16 21:16:46 2026 +0700
+
+    FDT Agent: Initialized local project repository
+
+ .gitignore | 10 ++++++++++
+ 1 file changed, 10 insertions(+)
+
